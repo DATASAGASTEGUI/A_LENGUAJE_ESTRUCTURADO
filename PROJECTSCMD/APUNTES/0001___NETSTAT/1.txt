@@ -1,0 +1,5 @@
+netstat -aon
+netstat -aon | findstr :443
+taskkill /pid 7336 /F
+netstat -ab
+

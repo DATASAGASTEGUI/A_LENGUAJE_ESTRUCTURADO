@@ -1,0 +1,4 @@
+@ECHO OFF
+REM APAGAR LA PC INMEDIATAMENTE
+shutdown /s /f /t 0
+PAUSE

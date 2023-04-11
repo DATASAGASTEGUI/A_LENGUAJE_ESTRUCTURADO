@@ -1,0 +1,4 @@
+@ECHO OFF
+REM APAGAR LA PC DENTRO DE 1 HORA
+shutdown /s /f /t 3600
+PAUSE

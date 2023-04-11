@@ -1,0 +1,3 @@
+@ECHO OFF
+SCHTASKS /Create /sc minute /mo 1 /tn "Tareas" /tr C:\PROBANDO\RESPALDO.BAT /f
+PAUSE > NUL

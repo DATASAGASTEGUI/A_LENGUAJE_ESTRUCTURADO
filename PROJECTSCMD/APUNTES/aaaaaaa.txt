@@ -1,0 +1,83 @@
+OBTENER MES COMANDO CMD
+
+echo %date:~4,2%
+
+OBTENER EL DIA COMANDO CMD
+
+echo %date:~1,2%
+
+SCHTASKS /QUERY | FIND "Tareas"
+
+set VAR1=Hola
+set VAR2=Mundo
+set RESULTADO=%VAR1%%VAR2%
+echo %RESULTADO%
+
+
+echo Hola & echo Mundo
+
+WINDOWS + R
+
+taskschd.msc
+
+shutdown /s /f /t 0 /m \\NombreDeLaPC
+
+Reemplaza "NombreDeLaPC" por el nombre de la computadora que deseas apagar. Si solo deseas apagar la PC local, puedes omitir el "/m \NombreDeLaPC".
+
+Los argumentos "/s /f /t 0" indican que se debe realizar un apagado forzado inmediato (/s), forzando el cierre de todas las aplicaciones abiertas (/f) y sin tiempo de espera (/t 0).
+
+----------
+import os
+import time
+
+# Obtener la hora actual
+hora_actual = time.localtime()
+
+# Establecer la hora de apagado en 22:00 horas
+hora_apagado = time.strptime("22:00:00", "%H:%M:%S")
+
+# Calcular la cantidad de segundos hasta la hora de apagado
+segundos_hasta_apagado = (hora_apagado.tm_hour - hora_actual.tm_hour) * 3600 + \
+                         (hora_apagado.tm_min - hora_actual.tm_min) * 60 + \
+                         (hora_apagado.tm_sec - hora_actual.tm_sec)
+
+# Esperar hasta la hora de apagado
+time.sleep(segundos_hasta_apagado)
+
+# Apagar la computadora
+os.system("shutdown /s /t 1")
+-----------
+
+Por ejemplo, si desea programar el apagado en 30 minutos, debe especificar el valor de 1800 segundos (30 minutos x 60 segundos por minuto
+shutdown /s /t 1800
+----------
+También puede agregar un mensaje personalizado que se mostrará en la pantalla antes de que se apague la PC utilizando el parámetro "-c". Por ejemplo:
+shutdown /s /t 3600 -c "La PC se apagará en una hora. Guarde su trabajo y cierre todas las aplicaciones."
+-------
+Puede utilizar el programador de tareas de Windows para ejecutar un programa a las 22 horas. Aquí está el código para crear una tarea programada utilizando el símbolo del sistema (CMD):
+
+Abra el símbolo del sistema (CMD) como administrador.
+Ejecute el siguiente comando para crear una tarea programada:
+
+schtasks /create /sc once /tn "Ejecutar programa" /tr "C:\ruta\del\programa.exe" /st 22:00
+
+Este comando creará una tarea programada llamada "Ejecutar programa" que se ejecutará una vez a las 22:00 horas y ejecutará el archivo de programa ubicado en "C:\ruta\del\programa.exe". Asegúrese de reemplazar "C:\ruta\del\programa.exe" con la ruta y el nombre de archivo de su propio programa.
+
+La tarea programada se creará y se mostrará un mensaje de éxito en el símbolo del sistema. Ahora, el programa se ejecutará automáticamente a las 22:00 horas.
+--------
+El comando "schtasks" es una herramienta de la línea de comandos en sistemas operativos Windows que se utiliza para administrar las tareas programadas. El argumento "/f" que se puede usar con el comando "schtasks" tiene un propósito específico:
+
+"/f" significa "force" o "forzar". Cuando se utiliza "/f" con el comando "schtasks", se indica a la herramienta que realice la acción solicitada sin solicitar confirmación al usuario. Esto significa que si se utiliza "/f" en conjunción con otros argumentos o comandos en "schtasks", se ejecutarán sin preguntar al usuario si está seguro de realizar la acción.
+
+En resumen, el uso de "/f" con el comando "schtasks" permite forzar la ejecución de acciones sin la necesidad de confirmación adicional del usuario. Es importante tener precaución al usar esta opción, ya que puede resultar en la modificación o eliminación de tareas programadas sin previo aviso. Se recomienda revisar y confirmar cuidadosamente los comandos antes de ejecutarlos con el argumento "/f".
+---------
+
+
+
+
+
+
+
+
+
+

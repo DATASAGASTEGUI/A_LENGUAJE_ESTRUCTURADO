@@ -1,0 +1,40 @@
+Ejercicio_0139_funcion: Raices de una ecuación cuadratica resuelto con funciones.
+Ejercicio_0146_funcion: Raices de una ecuación cuadratica resuelto con funciones.
+Ejercicio_0151_funcion: Raices de una ecuación cuadratica resuelto con funciones.
+Ejercicio_0156_funcion: Raices de una ecuación cuadratica resuelto con funciones.
+Ejercicio_0141_funcion: Raices de una ecuación cuadratica resuelto con funciones y procesos.
+
+Ejercicio_0140_funcion: Sumar dos números resuelto por una función con parametros por valor.
+Ejercicio_0147_funcion: Sumar dos números resuelto por una función con parametros por valor.
+
+Ejercicio_0142_funcion: Sumar dos números resuelto con una función con parametros por valor y parametro por referencia.
+Ejercicio_0148_funcion: Sumar dos números resuelto con una función con parametros por valor y parametro por referencia.
+Ejercicio_0153_funcion: Sumar dos números resuelto con una función con parametros por valor y parametro por referencia.
+
+Ejercicio_0144_funcion: Pago de una deuda con intereses resuelto sin funciones.
+Ejercicio_0152_funcion: Pago de una deuda con intereses resuelto con funciones.
+Ejercicio_0154_funcion: Pago de una deuda con intereses resuelto sin funciones.
+Ejercicio_0155_funcion: Pago de una deuda con intereses resuelto sin funciones.
+Ejercicio_0157_funcion: Pago de una deuda con intereses resuelto con funciones.
+Ejercicio_0158_funcion: Pago de una deuda con intereses resuelto con funciones.
+Ejercicio_0160_funcion: Pago de una deuda con intereses resuelto sin funciones.
+Ejercicio_0162_funcion: Pago de una deuda con intereses resuelto sin funciones.
+Ejercicio_0163_funcion: Pago de una deuda con intereses resuelto sin funciones.
+Ejercicio_0164_funcion: Pago de una deuda con intereses resuelto sin funciones.
+Ejercicio_0165_funcion: Pago de una deuda con intereses resuelto sin funciones.
+Ejercicio_0167_funcion: Pago de una deuda con intereses resuelto sin funciones. (Mío)
+
+Ejercicio_0143_funcion: Tabla de verdad de un circuito de compuertas lógicas resulto con funciones.
+
+Ejercicio_0145_funcion: Serie de un número con un inicio y final resuelto con función recursiva.
+Ejercicio_0169_funcion: Serie de un número con un inicio y final resuelto con función recursiva.
+
+Ejercicio_0149_funcion: Funcion recibe un parametro por referencia que incrementa un número.
+Ejercicio_0149_funcion: Funcion recibe un parametro por referencia que incrementa un número.
+Ejercicio_0166_funcion: Funcion recibe un parametro por valor que incrementa un número.
+
+Ejercicio_0159_funcion: Programa que nos dice que bebida queremos.
+
+Ejercicio_0161_funcion: Investigar hace algo de fracciones.
+
+Ejercicio_0168_funcion: Factorial con una función recursiva.

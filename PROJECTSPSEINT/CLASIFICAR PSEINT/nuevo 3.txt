@@ -1,0 +1,56 @@
+OVERCLOCK
+---------
+AUMENTAR LA FRECUENCIA DEL PROCESADOR
+
+i7 8700                     3.2 GHz (BASE)  1.2V   30ºc 
+i7 8700K                    3.7 GHz (BASE)  1.2V   30ºc                            MAYOR FRECUENCIA
+(mayor grado de pureza)azar
+(teoría del silicio)
+
+
+i7 8700K
+
+i7 8700K
+
+Distintos
+Mejor conductivilidad
+AZAR
+
+ESTRANGULAMIENTO TERMICO
+------------------------
+
+4.9 GHz   1.35v   109ºc ( bajo el voltaje para baje la frecuencia)
+
+RELOJ
+-----
+CPU
+---
+Cristal del cuarzo 
+
+Frecuencia base: 100 MHz
+Mulplicador    : 35
+Frecuencia del procesador : 35 * 100 MHz = 3500 MHz = 3.5 GHz
+
+- GUP
+
+- RAM
+
+- CHIPSET
+
+3.5 GHz(BASE)    AUMENTA LA FRECUENCIA(BIOS)  - 3.6GHz 1.2 SIN TOCAR EL VOLTAJE 
+                                                4.1GHz la maquina se te cuelga 1.3v AUMENTA LA T
+												
+PROCESOS
+--------
+												
+
+
+
+
+
+
+
+
+
+
+

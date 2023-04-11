@@ -1,0 +1,11 @@
+MIENTRAS
+Pedir N números por teclado e ir sumando dichos numeros solo
+los número multiplos de 3
+
+5
+8
+10
+15
+14
+5
+  n % 3 = 0

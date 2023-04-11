@@ -1,0 +1,130 @@
+************************
+***   ESTRUCTURAS   ****
+************************
+
+CALCULO (Esctructura Secuencial)
+
+CONDICIONAL = CONDICINAL BINARIA - IF ... THEN ... ELSE
+
+BUCLES (PARA(FOR), MIENTRAS(WHILE), REPETIR(DO ... WHILE)
+
+ARRAYS - Una dimensión   : Vector (0)
+         Dos dimensiones : Matriz (0,0)
+
+*******************
+***   VECTOR   ****
+*******************
+
+- Hacer un programa en pseint que me permita crear un vector
+  de tamaño n y luego el programa se encarga de llenar el vector
+  con números aleatorios en rango [1,9], posteriormente el programa
+  determinará cual es el promedio
+
+Algoritmo Vector10
+	Escribir Sin Saltar "Ingrese tamaño vector? "; Leer n
+	Dimension v[n]
+	Para i=1 Hasta n
+		v[i] = AZAR(9) + 1   // [1,9]   9 + 
+		Escribir v[i]
+		suma <- suma + v[i]
+	Fin Para
+	promedio <- suma / n
+	Escribir "Promedio: ", promedio
+FinAlgoritmo
+
+
+//PROMEDIO = SUMA / N     QUE TENGO QUE UTILIZAR SUMA: ACUMULADOR
+
+*******************
+***   MATRIZ   ****
+*******************
+
+- Crear una matriz 2x3  (fila x columna tamaño 6)
+
+Algoritmo Matriz1
+	Dimension m(2,3) //6 posiciones
+	m(1,1) = 5
+	m(1,2) = 8
+	m(1,3) = 9
+	m(2,1) = 1
+	m(2,2) = 4
+	m(2,3) = 3
+	Para i=1 Hasta 2 //FILAS
+	    Para j=1 Hasta 3 //COLUMNAS
+			Escribir Sin Saltar m(i,j) "  "
+	    FinPara
+	    Escribir ""
+	FinPara
+FinAlgoritmo
+
+- Crear una matriz de tamaño 2x3 que se llene con números
+  aleatorios en cada una de las 6 posiciones. Los números
+  aleatorios estarán en el rango [3,6]
+
+Algoritmo Matriz2
+	Dimension m[2,3] //6 posiciones
+	//LLENAR
+	Para i=1 Hasta 2 //FILAS
+		Para j=1 Hasta 3 //COLUMNAS
+			m[i,j] = AZAR(4) + 3  //[3,6]  
+		FinPara
+	    Escribir ""
+	FinPara
+	//MOSTRAR(RECORRR LA MATRIZ)
+	Para i=1 Hasta 2 //FILAS
+		Para j=1 Hasta 3 //COLUMNAS
+			Escribir Sin Saltar m[i,j] "  "
+		FinPara
+	    Escribir ""
+	FinPara
+FinAlgoritmo
+
+- Crear una matriz genérica f x c
+
+Algoritmo Matriz3
+	Escribir Sin Saltar "Ingrese filas? "; Leer f
+	Escribir Sin Saltar "Ingrese columnas? "; Leer c
+	Dimension m[f,c] //f*c
+	Para i=1 hasta f
+		Para j=1 hasta c
+			m[i,j] = AZAR(4) + 3
+			Escribir Sin Saltar m[i,j] "  ||   "
+		FinPara
+		Escribir ""
+	FinPara
+FinAlgoritmo
+
+- Crear una matriz genérica f*c y llenarlo con números
+  aleatorios entre el rango [4,7] y mostrar sólo las celdas
+  que que coincida fila y columna.
+
+Algoritmo Matriz4
+	Escribir Sin Saltar "Ingrese filas? "; Leer f
+	Escribir Sin Saltar "Ingrese columnas? "; Leer c
+	Dimension x[f,c] //f*c = tamaño
+	//LLENAR
+	Para i=1 Hasta f
+		Para j=1 Hasta c
+			x[i,j] = AZAR(4) + 4
+			Escribir Sin Saltar x[i,j] " | "
+		FinPara
+		Escribir ""
+	FinPara
+	//MOSTRAR
+	Para i=1 Hasta f
+		Para j=1 Hasta c
+			Si i = j Entonces
+				Escribir Sin Saltar "x[",i,",",j,"]=",x[i,j]
+			FinSi
+		FinPara
+		Escribir ""
+	FinPara
+FinAlgoritmo
+
+- Crear dos matrices del mismo tamaño, el tamaño generico
+  1 2 3    7 8 9     8 10 12
+  4 5 6    1 2 3     5  7  9
+  Luego el programa debe determinar la suma de las dos matrices
+  y mostrarla en pantalla
+
+  Los valores de la matriz es al azar entre el rango [10, 30]
