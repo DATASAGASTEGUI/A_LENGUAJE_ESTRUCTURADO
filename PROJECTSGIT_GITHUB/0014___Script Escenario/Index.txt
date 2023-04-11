@@ -1,0 +1,4 @@
+01: Crear un historial de commits del repositorio local
+02: Sacar un archivo del area de preparación hacia el área de trabajo
+03: Recuperar un archivo borrado del area de trabajo desde el ultimo commit
+04: Recupear un commit cualquier
